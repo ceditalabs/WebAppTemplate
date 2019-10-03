@@ -1,0 +1,22 @@
+﻿@model $safeprojectname$.Models.PrimeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    
+    <p>Let's see if we can Prime Number together.</p>
+
+    <form method="post">
+        <input asp-for="Number" />
+        <button type="submit">Check Prime</button>
+    </form>
+
+    @if (Model != null)
+    {
+        <div class="text-@(Model.IsPrime ? "success" : "danger")">
+            <strong>@Model.Number</strong> is @(Model.IsPrime ? "" : "not") prime!
+        </div>
+    }
+</div>

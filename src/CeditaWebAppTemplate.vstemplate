@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Cedita Base Web Application</Name>
+    <Description>Cedita Web Application Template with DI, Testing, and Logging wired up.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>0</SortOrder>
+    <DefaultName>Cedita.MyApp</DefaultName>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+        <ProjectTemplateLink ProjectName="$safeprojectname$">
+            Cedita.MyApp\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Data" CopyParameters="true">
+            Cedita.MyApp.Data\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Tests" CopyParameters="true">
+            Cedita.MyApp.Tests\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Web" CopyParameters="true">
+            Cedita.MyApp.Web\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Web.Tests" CopyParameters="true">
+            Cedita.MyApp.Web.Tests\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

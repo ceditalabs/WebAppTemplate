@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Cedita.MyApp.Data</Name>
+    <Description>Cedita App Data</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Cedita.MyApp.Data</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Cedita.MyApp.Data.csproj" File="Cedita.MyApp.Data.csproj" ReplaceParameters="true">
+      <Folder Name="Migrations" TargetFolderName="Migrations">
+        <ProjectItem ReplaceParameters="true" TargetFileName="00000000000000_CreateIdentitySchema.cs">00000000000000_CreateIdentitySchema.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="00000000000000_CreateIdentitySchema.Designer.cs">00000000000000_CreateIdentitySchema.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationDbContextModelSnapshot.cs">ApplicationDbContextModelSnapshot.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationDbContext.cs">ApplicationDbContext.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

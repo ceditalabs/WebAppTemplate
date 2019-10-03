@@ -1,0 +1,239 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Cedita.MyApp.Web</Name>
+    <Description>Cedita Web App Project</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Cedita Web App Project</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Cedita.MyApp.Web.csproj" File="Cedita.MyApp.Web.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+      </Folder>
+      <Folder Name="wwwroot" TargetFolderName="wwwroot">
+        <Folder Name="css" TargetFolderName="css">
+          <ProjectItem ReplaceParameters="true" TargetFileName="site.css">site.css</ProjectItem>
+        </Folder>
+        <Folder Name="js" TargetFolderName="js">
+          <ProjectItem ReplaceParameters="true" TargetFileName="site.js">site.js</ProjectItem>
+        </Folder>
+        <Folder Name="lib" TargetFolderName="lib">
+          <Folder Name="bootstrap" TargetFolderName="bootstrap">
+            <Folder Name="css" TargetFolderName="css">
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css.map">bootstrap.css.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css.map">bootstrap.min.css.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.css">bootstrap-grid.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.css.map">bootstrap-grid.css.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.min.css">bootstrap-grid.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-grid.min.css.map">bootstrap-grid.min.css.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.css">bootstrap-reboot.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.css.map">bootstrap-reboot.css.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.min.css">bootstrap-reboot.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-reboot.min.css.map">bootstrap-reboot.min.css.map</ProjectItem>
+            </Folder>
+            <Folder Name="js" TargetFolderName="js">
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.js">bootstrap.bundle.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.js.map">bootstrap.bundle.js.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.min.js">bootstrap.bundle.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.bundle.min.js.map">bootstrap.bundle.min.js.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.js">bootstrap.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.js.map">bootstrap.js.map</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js.map">bootstrap.min.js.map</ProjectItem>
+            </Folder>
+          </Folder>
+          <Folder Name="jquery" TargetFolderName="jquery">
+            <ProjectItem ReplaceParameters="true" TargetFileName="core.js">core.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.js">jquery.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.min.js">jquery.min.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.min.map">jquery.min.map</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.slim.js">jquery.slim.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.slim.min.js">jquery.slim.min.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.slim.min.map">jquery.slim.min.map</ProjectItem>
+          </Folder>
+          <Folder Name="jquery-validation" TargetFolderName="jquery-validation">
+            <Folder Name="localization" TargetFolderName="localization">
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ar.js">messages_ar.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ar.min.js">messages_ar.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_az.js">messages_az.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_az.min.js">messages_az.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_bg.js">messages_bg.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_bg.min.js">messages_bg.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_bn_BD.js">messages_bn_BD.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_bn_BD.min.js">messages_bn_BD.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ca.js">messages_ca.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ca.min.js">messages_ca.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_cs.js">messages_cs.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_cs.min.js">messages_cs.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_da.js">messages_da.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_da.min.js">messages_da.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_de.js">messages_de.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_de.min.js">messages_de.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_el.js">messages_el.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_el.min.js">messages_el.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_es.js">messages_es.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_es.min.js">messages_es.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_es_AR.js">messages_es_AR.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_es_AR.min.js">messages_es_AR.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_es_PE.js">messages_es_PE.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_es_PE.min.js">messages_es_PE.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_et.js">messages_et.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_et.min.js">messages_et.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_eu.js">messages_eu.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_eu.min.js">messages_eu.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_fa.js">messages_fa.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_fa.min.js">messages_fa.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_fi.js">messages_fi.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_fi.min.js">messages_fi.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_fr.js">messages_fr.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_fr.min.js">messages_fr.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ge.js">messages_ge.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ge.min.js">messages_ge.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_gl.js">messages_gl.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_gl.min.js">messages_gl.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_he.js">messages_he.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_he.min.js">messages_he.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_hr.js">messages_hr.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_hr.min.js">messages_hr.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_hu.js">messages_hu.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_hu.min.js">messages_hu.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_hy_AM.js">messages_hy_AM.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_hy_AM.min.js">messages_hy_AM.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_id.js">messages_id.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_id.min.js">messages_id.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_is.js">messages_is.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_is.min.js">messages_is.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_it.js">messages_it.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_it.min.js">messages_it.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ja.js">messages_ja.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ja.min.js">messages_ja.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ka.js">messages_ka.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ka.min.js">messages_ka.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_kk.js">messages_kk.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_kk.min.js">messages_kk.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ko.js">messages_ko.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ko.min.js">messages_ko.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_lt.js">messages_lt.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_lt.min.js">messages_lt.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_lv.js">messages_lv.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_lv.min.js">messages_lv.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_mk.js">messages_mk.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_mk.min.js">messages_mk.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_my.js">messages_my.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_my.min.js">messages_my.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_nl.js">messages_nl.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_nl.min.js">messages_nl.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_no.js">messages_no.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_no.min.js">messages_no.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_pl.js">messages_pl.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_pl.min.js">messages_pl.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_pt_BR.js">messages_pt_BR.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_pt_BR.min.js">messages_pt_BR.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_pt_PT.js">messages_pt_PT.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_pt_PT.min.js">messages_pt_PT.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ro.js">messages_ro.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ro.min.js">messages_ro.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ru.js">messages_ru.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ru.min.js">messages_ru.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sd.js">messages_sd.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sd.min.js">messages_sd.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_si.js">messages_si.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_si.min.js">messages_si.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sk.js">messages_sk.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sk.min.js">messages_sk.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sl.js">messages_sl.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sl.min.js">messages_sl.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sr.js">messages_sr.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sr.min.js">messages_sr.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sr_lat.js">messages_sr_lat.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sr_lat.min.js">messages_sr_lat.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sv.js">messages_sv.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_sv.min.js">messages_sv.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_th.js">messages_th.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_th.min.js">messages_th.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_tj.js">messages_tj.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_tj.min.js">messages_tj.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_tr.js">messages_tr.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_tr.min.js">messages_tr.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_uk.js">messages_uk.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_uk.min.js">messages_uk.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ur.js">messages_ur.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_ur.min.js">messages_ur.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_vi.js">messages_vi.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_vi.min.js">messages_vi.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_zh.js">messages_zh.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_zh.min.js">messages_zh.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_zh_TW.js">messages_zh_TW.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="messages_zh_TW.min.js">messages_zh_TW.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_de.js">methods_de.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_de.min.js">methods_de.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_es_CL.js">methods_es_CL.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_es_CL.min.js">methods_es_CL.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_fi.js">methods_fi.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_fi.min.js">methods_fi.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_it.js">methods_it.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_it.min.js">methods_it.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_nl.js">methods_nl.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_nl.min.js">methods_nl.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_pt.js">methods_pt.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="methods_pt.min.js">methods_pt.min.js</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="additional-methods.js">additional-methods.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="additional-methods.min.js">additional-methods.min.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.js">jquery.validate.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.min.js">jquery.validate.min.js</ProjectItem>
+          </Folder>
+          <Folder Name="jquery-validation-unobtrusive" TargetFolderName="jquery-validation-unobtrusive">
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.js">jquery.validate.unobtrusive.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.min.js">jquery.validate.unobtrusive.min.js</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      </Folder>
+      <Folder Name="Areas" TargetFolderName="Areas">
+        <Folder Name="Identity" TargetFolderName="Identity">
+          <Folder Name="Pages" TargetFolderName="Pages">
+            <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ErrorViewModel.cs">ErrorViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PrimeViewModel.cs">PrimeViewModel.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <Folder Name="Home" TargetFolderName="Home">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Privacy.cshtml">Privacy.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_LoginPartial.cshtml">_LoginPartial.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_ValidationScriptsPartial.cshtml">_ValidationScriptsPartial.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewImports.cshtml">_ViewImports.cshtml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.Development.json">appsettings.Development.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="libman.json">libman.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LICENSE.txt">LICENSE.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
