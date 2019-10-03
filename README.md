@@ -1,5 +1,7 @@
 # Cedita Web App Base Template
 
+**Labs Notice** - This is a Cedita Labs project, and is offered unsupported. We encourage external contributions.
+
 This Template contains 5 base projects to bootstrap any new web application, with default logging configuration, data project, test projects, and coding rulesets/stylecop all preconfigured.
 
 > **WARNING**: This might crash your VS on first load of the solution. This is tracked by Issue #1 and relates to lack of .ruleset or stylecop.json being created in the root solution directory.
