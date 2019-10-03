@@ -4,7 +4,7 @@
 
 This Template contains 5 base projects to bootstrap any new web application, with default logging configuration, data project, test projects, and coding rulesets/stylecop all preconfigured.
 
-> **WARNING**: This might crash your VS on first load of the solution. This is tracked by Issue #1 and relates to lack of .ruleset or stylecop.json being created in the root solution directory.
+> **WARNING**: This might crash your VS on first load of the solution. This is tracked by Issue #1 and relates to lack of .ruleset or stylecop.json being created in the root solution directory. To resolve, once solution is created, close VS. Immeditaly copy stylecop.json and Cedita.ruleset into the `Solution/Project/.` folder (1 level up from the 5 projects). Reopen solution.
 
 To install the template:
 
